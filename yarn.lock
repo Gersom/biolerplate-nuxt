@@ -1089,6 +1089,13 @@
     consola "^2.5.6"
     http-proxy-middleware "^0.19.1"
 
+"@nuxtjs/router@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/router/-/router-1.5.0.tgz#bed68f841b7a3457908c9ed36148172d75aa976f"
+  integrity sha512-LiWvlikpUaBqj8QVBzvo50pnK+8Wj6U9OkS/osYDD7dj0Et5L50pkO+VxVZq4r4boHfki/II98MKXoiTDH/+GQ==
+  dependencies:
+    consola "^2.10.1"
+
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/youch/-/youch-4.2.3.tgz#36f8b22df5a0efaa81373109851e1d857aca6bed"
@@ -5456,7 +5463,7 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt@^2.0.0:
+nuxt@^2.12.2:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.12.2.tgz#959baa919bfef4adcd9e88f84bc948a49a03edd8"
   integrity sha512-rARTgQBUZ0ALl9De7TRhHNzzYJT+RUGHTppDDaWno7a50YvZO85mXHCIVpOuXweNZzGq9njIAYHDHF/LO3esJQ==

@@ -1,8 +1,8 @@
 import Build from './config/build'
-import Head from './config/head'
 import Server from './config/server'
 import Extends from './config/extends'
 import Axios from './config/axios'
+import Head from './src/record/heads/default'
 
 export default {
   ...Server,

@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
+import Contact from '~/pages/Contact'
 import Home from '~/pages/index'
-import Example from '~/pages/example'
+import Us from '~/pages/us'
 
 Vue.use(Router)
 
@@ -13,11 +15,14 @@ export function createRouter () {
         path: '/',
         name: 'Home',
         component: Home
-      },
-      {
-        path: '/gg',
-        name: 'Example',
-        component: Example
+      }, {
+        path: '/nosotros',
+        name: 'Us',
+        component: Us
+      }, {
+        path: '/contacto',
+        name: 'Contact',
+        component: Contact
       }
     ]
   })

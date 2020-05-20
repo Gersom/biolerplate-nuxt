@@ -1,7 +1,7 @@
-<template lang="pug">
-  .Layout-defult
+<template lang='pug'>
+  .LayoutUs
     .o-container
-      Header
+      Header(:title="textHeader")
       nuxt
       Footer
 </template>
@@ -14,6 +14,11 @@ import Header from '~/components/Header'
 export default {
   components: {
     Footer, Header
+  },
+  data () {
+    return {
+      textHeader: 'Navbar Us'
+    }
   }
 }
 

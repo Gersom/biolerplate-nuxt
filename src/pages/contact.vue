@@ -9,10 +9,13 @@
 <script>
 
 import Button from '~/components/Button.vue'
+import Head from '~/record/heads/contact'
+
 export default {
   components: {
     Button
-  }
+  },
+  head: { ...Head }
 }
 
 </script>

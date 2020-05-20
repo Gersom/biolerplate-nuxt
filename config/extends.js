@@ -16,7 +16,7 @@ export default {
     [
       '@nuxtjs/router',
       {
-        path: `${Server.srcDir}config/`,
+        path: `${Server.srcDir}record/`,
         fileName: 'routes.js'
       }
     ]
